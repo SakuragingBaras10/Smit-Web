@@ -1,0 +1,243 @@
+@media(max-width: 900px){
+
+  .mobile-nav-toggle{
+    display: block;
+    z-index: 1000;
+    border-radius: 2px;
+    background-color: royalblue;
+    transition: background 50ms ease-in-out;
+  }
+
+  .navlist-container{
+    padding: 100px 0 0 50px;
+    width: 100%;
+    height: 100%;
+    inset: 0 0 0 30%;
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(1rem);
+    transform-origin: top;
+    transition: all 350ms ease-in-out;
+    transform: scaleX(0);
+    z-index: 100;
+    transform-origin: right;
+    transition: transform 350ms ease-in-out;
+  }
+
+  .primary-navigation[data-visible="true"] {
+    transform: scaleX(1);
+
+  }
+
+  .mobile-nav-toggle[aria-expanded="true"]{
+    background: url(../images/icons8-close-100.png);
+    background-size: cover;
+  }
+
+  .navlist-container ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .navlist-container ul li{
+    margin: 9px 5px;
+  }
+
+  .links{
+    color: white;
+  }
+
+  .button-modal{
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    background: royalblue;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .heropage{
+    flex-direction: column;
+  }
+
+  .welcome{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .right{
+    width: 100%;
+    height: 50%;
+  }
+
+  .logo img{
+    width: 75px;
+    height: 75px;
+  }
+
+  .welcome h1{
+    margin: 50px 0 0 0;
+  }
+
+  .navbar a{
+    margin-right: auto;
+  }
+
+  .brand{
+    display: none;
+  }
+
+  .img-container::before{
+    top: -30px;
+    left: -115px;
+  }
+
+  .welcome{
+    margin: 20px 0 0 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .about-link{
+    bottom: 70px;
+    left: 10px;
+  }
+
+  .about-section{
+    width: 100%;
+  }
+  
+  .top-section,.bottom-section{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-top-section,.left-bottom-section,.right-top-section,.right-bottom-section{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-top-section,.right-bottom-section{
+    padding: 0 10px 0 10px;
+  }
+
+
+
+  .left-top-section img,.left-bottom-section img{
+    width: 90%;
+    height: 90%;
+  }
+
+  .left-top-building-container:hover,.bottom-left-building-container:hover,.bottom-right-building-container:hover,.right-building-container:hover{
+    box-shadow: none;
+    transform: none;
+  }
+
+  .discription-pharagraph{
+    transform: none;
+  }
+
+  .right-building-discription{
+    height: 8vh;
+  }
+
+  .building-discription,.right-building-discription,.building-discription-right,.building-discription-left{
+    transform: none;
+  }
+
+  .anouncement{
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .left-anouncement,.articles-section{
+    width: 100%;
+    height: 50%;
+  }
+
+  .articles-section{
+    align-items: flex-start;
+  }
+
+  .buildings-page-container{
+    width: 85%;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .left-building-container,.right-building-container{
+    width: 100%;
+    height: 47%;
+  }
+
+  .building-discription{
+    height: 8vh;
+  }
+
+  .building-discription-left,.building-discription-right{
+    height: 14vh;
+  }
+
+  .popup-sidebar{
+    width: 100vw;
+    height: 900px;
+    top: 150px;
+    right: 0;
+  }
+
+  /* this section is for about html only */
+
+  .smit-history-page{
+    height: 160vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+
+  .about-page-hero img{
+    object-position: left;
+  }
+
+  .history-content{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+  }
+
+  .history-image-container{
+    height: 30%;
+    align-items: center;
+  }
+
+  .smit-history-page img{
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    left: 0;
+  }
+
+  .history-heading{
+    height: 15%;
+  }
+
+  .history-pharagraph p{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .05);
+  }
+
+}
+

@@ -1,0 +1,268 @@
+.navbar{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, .05);
+  transition: background-color 350ms ease-in-out, height 250ms ease-in-out;
+  background-color: white;
+  position: fixed;
+  z-index: 90;
+}
+
+.navbar-scrolled-down{
+  background-color: white;
+  height: 15vh;
+}
+
+.logo img{
+  margin: 0 10px 0 10px;
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+}
+
+
+.brand{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: clamp(.8rem, 2vw, 1.2rem);
+  margin-right: auto;
+}
+
+.navlist-container{
+  width: 600px;
+}
+
+.navlist-container ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.links{
+  text-decoration: none;
+  font-style: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.about-page-hero,.about-page-hero img{
+  width: 100%;
+  height: 80vh;
+  z-index: 80;
+  object-fit: cover;
+  object-position: center;
+}
+
+.smit-history-page{
+  width: 100%;
+  height: 140vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, .02);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.smit-history-page img{
+  bottom: 10px;
+  left: 50px;
+  width:550px;
+  height: 550px;
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: top;
+  background-color: rgba(65, 105, 225, .6);
+}
+
+.history-content,.history-image-container{
+  width: 50%;
+  height: 100%;
+}
+
+.history-image-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.history-heading{
+  text-align: center;
+  width: 100%;
+  height: clamp(10%, 20%, 30%);
+  font-size: clamp(4rem, 9vw, 9rem);
+  color: royalblue;
+  font-weight: bold;
+  font-style: italic;
+  overflow: hidden;
+  font-family: 'Moon Dance', cursive;
+}
+
+.history-heading span{
+  font-family: 'Moon Dance', cursive;
+  margin: 0 20px 0 0;
+
+}
+
+.history-pharagraph{
+  width: 100%;
+  height: 70%;
+  font-size: clamp( .7rem , 1.35vw, 1rem);
+}
+
+.vmcfull{
+  width: 100%;
+  height: 120vh;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.vmcfull div{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 500px;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.vmcfull div ul li{
+  text-decoration: none;
+  list-style: none;
+  text-transform: capitalize;
+  font-size: clamp(1rem, 1vw, 1.2rem);
+  margin: 0 5px 0 0;
+  color: black;
+  font-weight: bold;
+}
+
+.cvlist{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: black;
+}
+
+.vmcfull div p{
+  font-size: clamp(1.1rem, 2vw, 1.2rem);
+  color: black;
+  background-color: none;
+}
+
+
+
+.vmcfull div h1{
+  color: hsl(225, 73%, 57%);
+  font-size: clamp(1rem, 5vw, 3rem);
+  background-color: none;
+}
+
+.buildings-facilities-page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.building-section-container{
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.container-heading{
+  width: 100%;
+  height: 12%;
+  font-size: clamp(1.4rem, 3vw, 3rem);
+  font-weight: bold;
+}
+
+.slides{
+  margin: 0 20px;
+  width: 80vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.img-slides-container{
+  margin-left: 160vw;
+  width: 1000%;
+  height: 88%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-x: scroll;
+
+}
+
+.slides img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.img-discription-building{
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.img-discription-building h1,.img-discription-building p{
+  background-color: rgba(255, 255, 255, .3);
+  backdrop-filter: blur(.1rem);
+}
+
+.arrows{
+  position: absolute;
+  top: 510px;
+  right: 60px;
+  font-weight: bold;
+
+  z-index: 70;
+}
+.arrow-left,.arrow-right{
+  cursor: pointer;
+  font-size: 2.2rem;
+  border: none;
+  margin: 5px 0;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: rgba(31, 81, 255, .5);
+  backdrop-filter: blur(.5rem);
+  display: grid;
+  place-items: center;
+}
