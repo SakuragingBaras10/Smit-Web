@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="modals.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="mediaFiles.css">
+  <script src="index.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="index.html"><div class="logo"><img class="smitlogo" src="../images/smitlogo.png" alt="logo"></div></a>
+    <div class="brand">southern mindanao institute of technology, inc.</div>
+
+    <div id="primary-navigation" data-visible="false" class="navlist-container primary-navigation ">
+      <ul>
+        <li><a class="links" href="about.html">About</a></li>
+        <li><a class="links" href="programs.html">Programs</a></li>
+        <li><a class="links" href="about.html">Events</a></li>
+        <button class="button-modal" data-modal-target="#modal">FAQ</button>
+      </ul>
+    </div>
+
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+      <span class="sr-only"></span>
+      </button>
+
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="tittle">Frequently Asked Questions</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="faq-button-question">
+          <div class="accordion-link">How To Enroll?<img class="add" src="../images/dropDown.png" alt="">
+          </div>
+          <div class="answer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro natus perferendis aperiam! Molestias saepe doloremque eaque sequi, ipsam veritatis!</p>
+          </div>
+        </div>
+
+        <div class="faq-button-question">
+          <div class="accordion-link">I am an Alumni How Can I Request A Document?<img class="add" src="../images/dropDown.png" alt=""></div>
+          <div class="answer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro natus perferendis aperiam! Molestias saepe doloremque eaque sequi, ipsam veritatis!</p>
+          </div>
+        </div>
+
+        <div class="faq-button-question">
+          <div class="accordion-link">Does the School accepts Card Payments?<img class="add" src="../images/dropDown.png" alt=""></div>
+          <div class="answer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro natus perferendis aperiam! Molestias saepe doloremque eaque sequi, ipsam veritatis!</p>
+          </div>
+        </div>
+      
+        <div class="faq-button-question">
+          <div class="accordion-link">What time does the School Cashier Office Opens<img class="add" src="../images/dropDown.png" alt=""></div>
+        </div> 
+        <div class="answer">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro natus perferendis aperiam! Molestias saepe doloremque eaque sequi, ipsam veritatis!</p>
+        </div>
+        
+        <div class="faq-button-question">
+          <div class="accordion-link">What Documents Should I have When Enrolling?<img class="add" src="../images/dropDown.png" alt=""></div>
+          <div class="answer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro natus perferendis aperiam! Molestias saepe doloremque eaque sequi, ipsam veritatis!</p>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <div class="menu-button"></div>
+  <div id="overlay"></div>
+  </div>
+  
+</body>
+</html>
