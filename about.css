@@ -201,6 +201,17 @@
   height: 12%;
   font-size: clamp(1.4rem, 3vw, 3rem);
   font-weight: bold;
+  position: relative;
+}
+
+.container-heading::before{
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 50px;
+  background-color: royalblue;
+  left: -10px;
+  top: 1px;
 }
 
 .slides{

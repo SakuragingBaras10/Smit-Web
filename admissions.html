@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="admissions.css">
+  <link rel="stylesheet" href="events.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="modals.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="mediaFiles.css">
+
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="index.html"><div class="logo"><img class="smitlogo" src="/images/smitlogo.webp" alt="logo"></div></a>
+    <div class="brand">southern mindanao institute of technology, inc.</div>
+
+    <div id="primary-navigation" data-visible="false" class="navlist-container primary-navigation">
+      <ul>
+        <li><a class="links" href="index.html">Home</a></li>
+        <li><a class="links" href="about.html">About</a></li>
+        <li><a class="links" href="admissions.html">Admissions</a></li>
+        <li><a class="links" href="programs.html">Programs</a></li>
+        <li><a class="links" href="events.html">Events</a></li>
+        <button class="button-modal" data-modal-target="#modal">FAQ</button>
+      </ul>
+    </div>
+
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+      <span class="sr-only"></span>
+      </button>
+
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="tittle">Frequently Asked Questions</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="faq-button-question">
+          <div class="accordion-link">How To Enroll?<img class="add" src="../images/dropDown.png" alt="">
+          </div>
+          <div class="answer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro natus perferendis aperiam! Molestias saepe doloremque eaque sequi, ipsam veritatis!</p>
+          </div>
+        </div>
+
+        <div class="faq-button-question">
+          <div class="accordion-link">I am an Alumni How Can I Request A Document?<img class="add" src="../images/dropDown.png" alt=""></div>
+          <div class="answer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro natus perferendis aperiam! Molestias saepe doloremque eaque sequi, ipsam veritatis!</p>
+          </div>
+        </div>
+
+        <div class="faq-button-question">
+          <div class="accordion-link">Does the School accepts Card Payments?<img class="add" src="../images/dropDown.png" alt=""></div>
+          <div class="answer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro natus perferendis aperiam! Molestias saepe doloremque eaque sequi, ipsam veritatis!</p>
+          </div>
+        </div>
+      
+        <div class="faq-button-question">
+          <div class="accordion-link">What time does the School Cashier Office Opens<img class="add" src="../images/dropDown.png" alt=""></div>
+        </div> 
+        <div class="answer">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro natus perferendis aperiam! Molestias saepe doloremque eaque sequi, ipsam veritatis!</p>
+        </div>
+        
+        <div class="faq-button-question">
+          <div class="accordion-link">What Documents Should I have When Enrolling?<img class="add" src="../images/dropDown.png" alt=""></div>
+          <div class="answer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro natus perferendis aperiam! Molestias saepe doloremque eaque sequi, ipsam veritatis!</p>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <div class="menu-button"></div>
+  <div id="overlay"></div>
+  </div>
+
+  <div class="admissions-page-hero"></div>
+
+  <div class="offices-container">
+    <div class="offices-heading">Offices</div>
+
+    <div class="office-discription-container
+    office-registrar">
+        <div class="office-discription">
+          <h1>Office Of The Registrart</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, molestias.</p>
+        </div>
+        <div class="office-time">
+          <h1>
+            <img src="/images/clock.png" alt="">
+            Monday - Friday
+          </h1>
+          <h2>8:00AM - 4:00PM</h2>
+        </div>
+    </div>
+
+    <div class="office-discription-container Cashier-registrar">
+        <div class="office-discription">
+          <h1>Office Of The Cashier</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, molestias.</p>
+        </div>
+        <div class="office-time">
+          <h1>
+            <img src="/images/clock.png" alt="">
+            Monday - Friday
+          </h1>
+          <h2>8:00AM - 4:00PM</h2>
+        </div>
+    </div>
+
+  </div>
+
+  <div class="enrollment-requirements-page">
+    <div class="enrollment-heading">Enrollment Requirements</div>
+    <div class="enrollment-links-container">
+      <div class="enrollment-links">High School & Elementary</div>
+      <div class="enrollment-links">College</div>
+    </div>
+  </div>
+
+  <div class="ready-to-enroll">
+    <div class="ready-container">
+      <h1>Ready To Enroll?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa architecto facere nostrum aperiam praesentium adipisci perferendis pariatur odit libero consequatur?</p>
+      <button>How To Enroll?</button>
+    </div>
+  </div>
+
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.685782193512!2d124.6657716145574!3d6.685789595166149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f80d5c00771a3f%3A0x8cbf808f21d2ac36!2sSouthern%20Mindanao%20Institute%20Technology!5e0!3m2!1sen!2sph!4v1670546953356!5m2!1sen!2sph" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" Samesite="Secure"
+     SameSite="Strict"  referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div class="copyright-section">Copyright 2022| Southern Mindanao Institute Of Technology, Inc.| All Rights Reserved</div>
+
+  
+</body>
+</html>
