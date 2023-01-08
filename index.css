@@ -416,8 +416,9 @@ body{
 
 
 .right-building-container{
-  background-image: url(../images/facilities.webp);
+  background-image: url(/images/president.png);
   background-size: cover;
+  background-color: rgba(0, 0, 0, .09);
 }
 
 .left-top-building-container,.left-bottom-building-container{
