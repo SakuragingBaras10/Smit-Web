@@ -248,12 +248,25 @@
     flex-direction: column;
   }
 
+  .programs-sections img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .discription-container-content p{
+    font-weight: 500;
+  }
+
   .discription-container-content{
     width: 350px;
     height: 300px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(.06rem);
   }
 
   .about-main-heading{
@@ -288,14 +301,6 @@
     background-color: royalblue;
     left: 10px;
     top: 5px;
-  }
-
-  .events-page >*{
-    border: 2px solid rebeccapurple;
-  }
-
-  body >*{
-    border: 2px solid hotpink;
   }
 
   .office-discription-container{

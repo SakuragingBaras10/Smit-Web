@@ -8,6 +8,7 @@
 
 .navbar{
   background-color: white;
+  height: 10vh;
 }
 
 .programs-page-hero img{
@@ -27,19 +28,27 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .1);
   position: relative;
+  overflow: hidden;
 }
 
 
 .programs-sections img{
   position: absolute;
-  width: 100%;
+  width: 60%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top;
   opacity: .9;
   z-index: -1;
+  bottom: 0;
+}
+
+.program-shs-img{
+  top: 0;
+  right: 0;
+  transform: scale(1.2);
 }
 
 
@@ -62,9 +71,15 @@
   left: 100px;
 }
 
+.senior-section{
+  background-color: rgba(0, 0, 0, .12);
+}
+
 .discription-container-content h1,.discription-container-content p{
   text-align: center;
 }
+
+
 
 .discription-container-content button{
   margin: 10px 0 0 0;
