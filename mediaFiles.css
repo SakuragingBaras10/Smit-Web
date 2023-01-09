@@ -260,7 +260,6 @@
     height: 400px;
     object-fit: contain;
     object-position: center;
-    border: 1px solid hotpink;
   }
 
   .buildings-facilities-page{
@@ -328,6 +327,29 @@
     justify-content: center;
   }
 
+  .events-page{
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .events-main-heading{
+    width: 320px;
+    height: 230px;
+
+  }
+
+  .container-discription-events{
+    padding: 0 5px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(.05rem);
+  }
+
   .events-container{
     margin: 20px 0;
     width: 300px;
@@ -335,7 +357,13 @@
   }
 
   .article-container{
-    margin: 10px 0;
+    margin: 10px 20px 0 20px ;
+    width: 320px;
+    height: 380px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    position: relative;
+    transition: transform 350ms ease-in-out;
   }
 
   .events-page h1::before,.offices-heading::before{
