@@ -120,3 +120,60 @@
   top: 10px;
   left: -20px;
 }
+
+.requirements-procedure-page{
+  width: 100%;
+  height: 65vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.requirements-container-section{
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.requirements-bottom{
+  width: 50%;
+  height: 100%;
+}
+
+.heading-requirements-bottom{
+  width: 80%;
+  text-align: start;
+  font-size: clamp(1.5rem, 2.3vw, 2.3rem);
+  font-weight: bold;
+  position: relative;
+}
+
+.heading-requirements-bottom::before{
+  content: "";
+  width: 8px;
+  height: 50px; 
+  background-color: royalblue;
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+
+.requirements-contents-bottom{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.requirements-contents-bottom h2{
+  background-color: royalblue;
+}
+
