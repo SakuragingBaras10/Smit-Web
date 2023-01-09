@@ -207,6 +207,12 @@
     justify-content: flex-start;
     overflow: hidden;
   }
+  
+  
+  .about-main-heading{
+    width: 550px;
+    height: 230px;
+  }
 
   .about-page-hero img{
     object-position: left;
@@ -226,7 +232,7 @@
   .smit-history-page img{
     width: 300px;
     height: 300px;
-    z-index: -1;
+    z-index: 1;
     left: 0;
   }
 
@@ -237,6 +243,45 @@
   .history-pharagraph p{
     padding: 5px;
     background-color: rgba(0, 0, 0, .05);
+  }
+
+  .img-slides-container{
+    margin-left: 178vw;
+  }
+
+  .slides{
+    margin: 0 20px;
+    width: 85vw;
+    height: 80%;
+  }
+
+  .building-section-container video{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    border: 1px solid hotpink;
+  }
+
+  .buildings-facilities-page{
+    background-color: white;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .container-heading::before{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 25px;
+    background-color: royalblue;
+    left: -10px;
+    top: 1px;
   }
 
   /* this section is for programs html */
@@ -303,16 +348,58 @@
     top: 5px;
   }
 
-  .office-discription-container{
+  body >*{
+    overflow: hidden;
+  }
+  
+
+  .offices-container{
     width: 100%;
-    height: 45%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .office-time h1 img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .office-time h2{
+    padding: 0 0 0 30px;
+  }
+
+  .enrollment-requirements-page{
+    width: 100%;
+    height: 60vh;
+  }
+
+  .enrollment-heading::before{
+    width: 290px;
+    height: 5px;
+    border-radius: 5px;
+  
+    bottom: -10px;
+    left: 50px;
+  }
+
+  .enrollment-links{
+    margin: 5px 0;
+  }
+
+  .enrollment-links-container{
+    width: 100%;
+    height: 90%;
     display: flex;
     flex-direction: column;
   }
 
-  .office-discription,.office-time{
-    width: 100%;
-    height: 50%;
+  .ready-container{
+    margin: 50px 50px;
+    background-color: rgba(255, 255, 255, .5);
+    backdrop-filter: blur(1rem);
   }
 
 }
