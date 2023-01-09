@@ -1,0 +1,122 @@
+.procedures-page-hero{
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+
+.procedures-main-heading{
+  position: absolute;
+  text-align: center;
+  padding: 10px 10px;
+  width: 750px;
+  height: 230px;
+  background-color: rgba(65, 105, 225, .8);
+  backdrop-filter: blur(1rem);
+  color: white;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: grid;
+  place-items: center;
+
+  z-index: 10;
+}
+
+.procedure-heading-section{
+  color: white;
+  font-size: clamp(3rem, 4vw, 4rem);
+  font-weight: bold
+}
+
+.procedures-page-hero img{
+  position: fixed;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 80vh;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+.steps-page{
+  width: 100%;
+  height: 198vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.steps-container{
+  padding: 100px 0 0 0;
+  width: 70%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.steps{
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.stepOne-sections{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-two,.step-three{
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.step-two ul,.step-three ul{
+  width: 100%;
+  padding: 50px 0 0 250px;
+}
+
+.steps h1{
+  font-size: clamp(1.4rem, 2.5vw, 2.5rem);
+  position: relative;
+}
+
+.steps h1::before{
+  content: "";
+  width: 8px;
+  height: 50px; 
+  background-color: royalblue;
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+
+.stepOne-sections h2{
+  font-size: clamp(1.5rem, 2.3vw, 2.3rem);
+}
+
+.step-two ul li,.step-three ul li,.stepOne-sections ul li{
+  font-size: clamp(.8rem, 1.5vw, 2rem);
+  list-style: none;
+  position: relative;
+}
+
+.step-two ul li::before,.step-three ul li::before,.stepOne-sections ul li::before{
+  content: "";
+  width: 10px;
+  height: 10px; 
+  border-radius: 50%;
+  background-color: royalblue;
+  position: absolute;
+  top: 10px;
+  left: -20px;
+}

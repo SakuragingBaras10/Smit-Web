@@ -340,8 +340,8 @@
 
   .container-discription-events{
     padding: 0 5px;
-    width: 200px;
-    height: 80px;
+    width: 250px;
+    height: 70px;
     position: absolute;
     bottom: 10px;
     left: 40px;
@@ -352,8 +352,8 @@
 
   .events-container{
     margin: 20px 0;
-    width: 300px;
-    height: 150px;
+    width: 340px;
+    height: 170px;
   }
 
   .article-container{
@@ -376,9 +376,13 @@
     top: 5px;
   }
 
-  body >*{
-    overflow: hidden;
+  .article-container .container-discription-events{
+    height: 80px;
   }
+
+  /* body >*{
+    overflow: hidden;
+  } */
   
 
   .offices-container{
@@ -432,6 +436,35 @@
 
   .admission-main-heading,.programs-main-heading{
     width: 390px;
+  }
+
+  .steps-page{
+    height: 120vh;
+  }
+
+  .steps h1::before{
+    content: "";
+    width: 4px;
+    height: 25px; 
+    background-color: royalblue;
+    font-size: clamp(1.3rem, 2vw, 2rem);
+    position: absolute;
+    top: 2px;
+    left: -10px;
+  }
+
+  .steps{
+    height: 40vh;
+  }
+
+  .procedures-main-heading{
+    width: 320px;
+    height: 230px;
+  }
+
+  .step-two ul,.step-three ul{
+    width: 100%;
+    padding: 0;
   }
 
 }
