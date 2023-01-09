@@ -256,5 +256,59 @@
     transform: translate(-50%, -50%);
   }
 
+  .about-main-heading{
+    width: 390px;
+  }
+
+  .top-section-events,.bottom-section-events{
+    height: 150vh;
+  }
+
+  .events-page-sectionone,.events-page-sectiontwo,.article-page-sectionone,.article-page-sectiontwo{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .events-container{
+    margin: 20px 0;
+    width: 300px;
+    height: 150px;
+  }
+
+  .article-container{
+    margin: 10px 0;
+  }
+
+  .events-page h1::before,.offices-heading::before{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 30px;
+    background-color: royalblue;
+    left: 10px;
+    top: 5px;
+  }
+
+  .events-page >*{
+    border: 2px solid rebeccapurple;
+  }
+
+  body >*{
+    border: 2px solid hotpink;
+  }
+
+  .office-discription-container{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .office-discription,.office-time{
+    width: 100%;
+    height: 50%;
+  }
+
 }
 

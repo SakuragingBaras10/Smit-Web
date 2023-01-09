@@ -52,19 +52,51 @@
   font-weight: bold;
 }
 
-.about-page-hero,.about-page-hero img{
+.about-page-hero{
   width: 100%;
   height: 80vh;
-  z-index: 80;
+  position: relative;
+}
+
+.about-page-hero img{
+  width: 100%;
+  height: 80vh;
+  position: fixed;
+  z-index: -1;
   object-fit: cover;
   object-position: center;
 }
 
+.about-main-heading{
+  text-align: center;
+  padding: 10px 10px;
+  position: absolute;
+  width: 750px;
+  height: 230px;
+  background-color: rgba(31, 81, 255, .6);
+  backdrop-filter: blur(1rem);
+  color: white;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.about-heading-section{
+  font-size: clamp(3rem, 4vw, 4rem);
+  font-weight: bold
+}
+
+.about-discription{
+  font-size: clamp(1.1rem, 1.2vw, 1.3rem);
+}
+
+
+
 .smit-history-page{
+  background-color: white;
   width: 100%;
   height: 140vh;
   position: relative;
-  background-color: rgba(0, 0, 0, .02);
 
   display: flex;
   flex-direction: row;
@@ -120,6 +152,7 @@
 }
 
 .vmcfull{
+  background-color: white;
   width: 100%;
   height: 120vh;
   position: relative;
@@ -177,6 +210,7 @@
 }
 
 .buildings-facilities-page{
+  background-color: white;
   width: 100%;
   height: 100vh;
   display: flex;
