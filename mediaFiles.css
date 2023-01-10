@@ -2,6 +2,7 @@
 
   body >*{
     overflow: hidden;
+    overflow-x: hidden;
   }
 
   .mobile-nav-toggle{
