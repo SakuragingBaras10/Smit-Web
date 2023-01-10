@@ -157,6 +157,11 @@
   font-weight: bold;
 }
 
+.enrollment-links a{
+  text-decoration: none;
+  color: white;
+}
+
 .ready-to-enroll{
   width: 100%;
   height: 60vh;

@@ -120,3 +120,117 @@
   text-decoration: none;
   color: white;
 }
+
+/* elemetary html */
+
+.elementary-page-hero{
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  background-color: rgb(235, 233, 233);
+}
+
+.elementary-main-heading{
+  padding: 10px 10px;
+  position: absolute;
+  width: 550px;
+  height: 150px;
+  color: rgba(31, 81, 255, 1);
+  text-align: center;
+  background-color: white;
+
+  font-size: clamp(3rem, 4vw, 4rem);
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.hero-nav{
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(171, 171, 171);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-nav ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-nav ul li{
+  margin: 0 20px;
+  list-style: none;
+  font-weight: bold;
+  color: white;
+  
+
+  font-size: clamp(1rem, 1.3vw, 1.3rem);
+}
+
+.hero-nav ul li a{
+  text-decoration: none;
+  color: white;
+  transition: transform 350ms ease-in-out, color 350ms ease-in-out;
+  cursor: pointer;
+}
+
+.hero-nav ul li a:hover{
+  color: royalblue;
+  transform: scale(1.01);
+}
+
+.contents-page{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contents-container-elem{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-elem,.right-elem{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.left-elem img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-elem p{
+  font-size: clamp(1rem, 1.3vw, 2rem);
+}
+
+.enrollment-requirements-elem{
+  width: 100%;
+  height: 80vh;
+  background-color: rebeccapurple;
+}
+
+.shs-shs{
+  transform: scaleX(-1);
+}

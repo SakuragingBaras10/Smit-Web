@@ -1,5 +1,9 @@
 @media(max-width: 900px){
 
+  body >*{
+    overflow: hidden;
+  }
+
   .mobile-nav-toggle{
     display: block;
     z-index: 1000;
@@ -508,6 +512,62 @@
     position: absolute;
     top: 2px;
     left: -10px;
+  }
+
+  .contents-page{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contents-container-elem{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .left-elem,.right-elem{
+    width: 100%;
+    height: 50%;
+  }
+
+  .requirements-procedure-page{
+    width: 100%;
+    height: 150vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .requirements-container-section{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .requirements-contents-bottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .requirements-contents-bottom h2{
+    background-color: royalblue;
   }
 
 }
